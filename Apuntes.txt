@@ -1,0 +1,16 @@
+------- comandos para crear tabla--------
+----ejemplo-----
+CREATE TABLE Paciente1(
+		idpaciente int NOT NULL,
+		nombre varchar(50) NOT NULL,
+		apellido varchar(50) NULL,
+		fnacimiento date NULL,
+		domicilio varchar(50) NULL,
+		idpais char(3) NULL,
+		telefono varchar(20) NULL ,
+		email varchar(50) NULL,
+		observacion varchar(1000) NULL,
+		fechaalta datetime NOT NULL
+		CONSTRAINT PK_idpaciente PRIMARY KEY(idpaciente)
+)
+
